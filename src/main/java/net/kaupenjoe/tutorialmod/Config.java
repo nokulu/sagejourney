@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 package net.kaupenjoe.tutorialmod;
+=======
+package net.wulong.sagejourney;
+>>>>>>> new-initial-commit
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -14,7 +18,11 @@ import java.util.stream.Collectors;
 
 // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
 // Demonstrates how to use Forge's config APIs
+<<<<<<< HEAD
 @Mod.EventBusSubscriber(modid = TutorialMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+=======
+@Mod.EventBusSubscriber(modid = Sagejourney.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
+>>>>>>> new-initial-commit
 public class Config
 {
     private static final ForgeConfigSpec.Builder BUILDER = new ForgeConfigSpec.Builder();
